@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-bar {
+    background-color: aqua;
+}
+
+.header {
+    background-color: blue;
+} 
+
+.main-content {
+    background-color: brown;
+}
