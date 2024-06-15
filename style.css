@@ -1,10 +1,18 @@
+* {
+    margin: 0;
+}
+
 body {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 5fr;
 }
 
 .side-bar {
-    background-color: aqua;
+    display: grid;
+    gap: 2rem;
+    background-color: rgb(18, 144, 240);
+    justify-content: center;
+    height: 100vh;
 }
 
 .header {
@@ -13,4 +21,15 @@ body {
 
 .main-content {
     background-color: brown;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
 }
