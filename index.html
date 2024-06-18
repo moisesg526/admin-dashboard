@@ -8,6 +8,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Admin Dashboard</title>
   </head>
   <body>
@@ -27,15 +31,27 @@
         <div class="top">
           <div class="search-bar">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search" />
+            <input type="text" />
           </div>
           <div class="top-right">
-            <i class="fa-regular fa-bell"></i>
+            <span class="material-icons"> notifications_active </span>
             <img src="./images/naruto.jpg" alt="Naruto Uzumaki" />
             <h3>Naruto Uzumaki</h3>
           </div>
         </div>
-        <div class="bottom">BOTTOM</div>
+        <div class="bottom">
+          <div class="bottom-left">
+            <img src="./images/naruto.jpg" alt="Naruto Uzumaki" />
+            <h2>
+              <span id="bold">Hi there,</span> <br />Naruto Uzumaki (@naruto)
+            </h2>
+          </div>
+          <div class="bottom-right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
       </div>
       <div class="main-content">Your Projects</div>
     </div>
