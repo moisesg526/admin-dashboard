@@ -40,7 +40,7 @@ input {
 
 .main-content {
   background-color: rgb(239, 239, 239);
-  padding: 2rem 0;
+  padding: 2rem;
   height: 100vh;
 }
 
@@ -110,7 +110,7 @@ button {
 }
 
 .main-content-second {
-    padding: 2rem;
+    padding: 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 1500px;
@@ -126,5 +126,19 @@ button {
 .content {
     background-color: #fff;
     box-shadow: -7px 0px 0px 0px  rgb(236, 170, 16);
-    border-radius: 10px;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.content > h4 {
+    padding: 1rem 0;
+}
+
+.content-btn {
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    padding: 1rem;
+    gap: 1rem;
+    place-content: end;
+    cursor: pointer;
 }
