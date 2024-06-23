@@ -172,7 +172,7 @@ button {
 .main-content-right {
   padding: 1rem 2rem;
   display: grid;
-  grid-template-rows: 5fr 1fr 5fr;
+  grid-template-rows: 5fr 5fr;
   width: 70%;
 }
 
@@ -181,7 +181,7 @@ button {
   border-radius: 10px;
 }
 
-.mc-top {
+.mcr-top {
   display: grid;
   text-align: center;
   text-align: left;
